@@ -1,0 +1,44 @@
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/Programistich/busybar-ecoflow.git
+    commit_sha: 1c608cde741c006f44199b0403462918060f77c5  # v0.1.0
+
+category: smart-home
+
+short_description: Battery level of your EcoFlow power station, its charging, power in and out, and the time left.
+
+description: |-
+  The battery of your EcoFlow power station on your BUSY Bar.
+
+  ## What you see
+
+  - **Battery icon:** fills with the charge level, green above 50%, yellow from 21 to 50%, red at 20% and below. A lightning bolt shows while it charges.
+  - **Percentage:** the charge level as the station shows it.
+  - **Time:** the time until full while charging, or until empty while discharging.
+  - **Power:** a green arrow with the input power and an orange arrow with the output power. **Idle** when nothing flows, **Full** when the battery is full.
+  - **Offline:** if the station cannot be reached for 5 minutes, the screen dims and keeps the last known level.
+
+  ## Setup
+
+  1. Sign in at [developer.ecoflow.com](https://developer.ecoflow.com) with your EcoFlow account and apply to become a developer. EcoFlow reviews the request within a few business days.
+  2. Once approved, open **Security** and create an access key and a secret key.
+  3. Open the app settings in the BUSY Bar web interface and enter the access key, the secret key and the serial number of your power station.
+  4. Choose the region of your developer account: Europe for developer-eu.ecoflow.com, Global otherwise.
+
+  ## Controls
+
+  - **Start** or **OK**: refresh now.
+  - **Back**: leave the app.
+
+  Built for DELTA 2 Max. Other stations that report the same values, such as the DELTA 2 and RIVER 2 series, should work too.
+
+changelog: |-
+  First release: battery level, charging, power in and out, and the time until full or empty.
+
+screenshots:
+  - screenshots/front-1.png
+  - screenshots/front-2.png
+  - screenshots/front-3.png
+  - screenshots/front-4.png
+  - screenshots/front-5.png
