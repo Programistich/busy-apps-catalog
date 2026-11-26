@@ -2,7 +2,7 @@ sourcecode:
   type: git
   location:
     origin: https://github.com/Programistich/busybar-ecoflow.git
-    commit_sha: 1c608cde741c006f44199b0403462918060f77c5  # v0.1.0
+    commit_sha: 98dfb277758b1ce5ca7f2bddd05bd768db6e86a5  # v0.1.0
 
 category: smart-home
 
@@ -31,7 +31,7 @@ description: |-
   - **Start** or **OK**: refresh now.
   - **Back**: leave the app.
 
-  Built for DELTA 2 Max. Other stations that report the same values, such as the DELTA 2 and RIVER 2 series, should work too.
+  Tested with DELTA 2 Max. Other stations that report the same values, such as the DELTA 2 and RIVER 2 series, should work too.
 
 changelog: |-
   First release: battery level, charging, power in and out, and the time until full or empty.
